@@ -1,6 +1,6 @@
-name: EvLib
+name: EvLib-OG
 author: NotAlexNoyle
-description: A fully GPLv3 version of EvLib that builds with gradle.
+description: A fully LGPLv3 version of EvLib that builds with gradle.
 website: https://github.com/true-og/EvLib-OG/
 version: '${version}'
 api-version: '${apiVersion}'

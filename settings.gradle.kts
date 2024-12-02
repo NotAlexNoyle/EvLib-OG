@@ -1,4 +1,4 @@
-rootProject.name = "EvLib"
+rootProject.name = "EvLib-OG"
 
 // Execute bootstrap.sh
 exec {
