@@ -1,0 +1,8 @@
+name: EvLib
+author: NotAlexNoyle
+description: A fully GPLv3 version of EvLib that builds with gradle.
+website: https://github.com/true-og/EvLib-OG/
+version: '${version}'
+api-version: '${apiVersion}'
+main: plugin.EvLib
+depend: [Utilities-OG, Vault, Essentials]
