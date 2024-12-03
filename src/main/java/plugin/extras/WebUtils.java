@@ -217,7 +217,7 @@ public class WebUtils {
 		playerExists.put(nameOrUUID, profile);
 		return profile;
 	}
-	PlayerProfile getPlayerProfile(String nameOrUUID, boolean fetchSkin, Plugin nullForSync) {
+	public PlayerProfile getPlayerProfile(String nameOrUUID, boolean fetchSkin, Plugin nullForSync) {
 		if (nameOrUUID.matches("^[a-f0-9]{32}$")) {
 			nameOrUUID = addDashesForUUID(nameOrUUID);
 		}
