@@ -60,7 +60,8 @@ dependencies {
     compileOnly("io.github.miniplaceholders:miniplaceholders-api:2.2.3") // Import MiniPlaceholders API.
 	compileOnly("com.github.MilkBowl:VaultAPI:1.7.1") // Import Vault API.i
 	compileOnly("com.sk89q.worldedit:worldedit-bukkit:7.2.15") // Import WorldEdit API.
-    implementation(files("libs/Utilities-OG/build/libs/Utilities-OG-1.6.2.jar")) 
+
+	implementation(project(":libs:Utilities-OG"))
 }
 
 tasks.withType<AbstractArchiveTask>().configureEach { // Ensure reproducible builds.
