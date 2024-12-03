@@ -1,9 +1,10 @@
 package plugin.noteblockapi;
 
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.java.JavaPlugin;
 
 public class NoteBlockPlayerMain extends JavaPlugin{
 	static NoteBlockPlayerMain plugin;

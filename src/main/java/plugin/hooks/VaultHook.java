@@ -1,13 +1,15 @@
 package plugin.hooks;
 
 import java.math.BigDecimal;
+
 import org.bukkit.OfflinePlayer;
 import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.RegisteredServiceProvider;
+
 import net.milkbowl.vault.chat.Chat;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
 import net.milkbowl.vault.permission.Permission;
-import org.bukkit.plugin.RegisteredServiceProvider;
 
 public class VaultHook{
 	public static Economy econ = null;

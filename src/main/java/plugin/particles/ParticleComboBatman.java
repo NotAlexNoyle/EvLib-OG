@@ -3,6 +3,7 @@ package plugin.particles;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.image.BufferedImage;
+
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;

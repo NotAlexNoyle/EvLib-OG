@@ -3,8 +3,10 @@ package plugin.hooks;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
-import com.earth2me.essentials.perm.PermissionsHandler;
+
 import com.earth2me.essentials.User;
+import com.earth2me.essentials.perm.PermissionsHandler;
+
 import net.ess3.api.IEssentials;
 
 public class EssPermHook{

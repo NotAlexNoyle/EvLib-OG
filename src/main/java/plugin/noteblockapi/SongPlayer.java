@@ -1,10 +1,11 @@
 package plugin.noteblockapi;
 
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 
 public abstract class SongPlayer{
 	protected Song song;
